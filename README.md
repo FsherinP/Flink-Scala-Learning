@@ -29,6 +29,7 @@ This project is a POC of Flink, Kafka using Scala
    bin/kafka-console-producer.sh --broker-list localhost:9092 --topic input
 ```
 Then give a string
+
 2. View the output from the topic output
 ```
     bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic output --from-beginning
